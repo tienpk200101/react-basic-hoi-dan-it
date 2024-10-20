@@ -1,5 +1,11 @@
 import logo from "./logo.svg";
 import "./App.scss";
+import MyComponent from "./Example/MyComponent";
+
+/**
+ * Component của React là 1 class hay function được dùng để render html.
+ * 2 components: class component || function component (function, arrow)
+ */
 
 function App() {
   return (
@@ -15,6 +21,7 @@ function App() {
         >
           Learn React
         </a>
+        <MyComponent />
       </header>
     </div>
   );
